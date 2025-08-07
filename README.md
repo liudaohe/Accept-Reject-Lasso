@@ -37,6 +37,10 @@ python arl_pipeline.py --input large_data.csv --target target \
 - [自定义方法集成](#自定义方法集成)
 - [API 参考](#api-参考)
 
+### 论文完整复现流程
+论文所有实验结果的完整复现流程pipeline以及数据将陆续公布
+
+
 ## ARL 算法概述
 
 ARL (Accept-Reject Lasso) 是一种创新的特征选择算法，用以解决Lasso在高相关性特征之间的选择不确定性
@@ -47,7 +51,7 @@ ARL (Accept-Reject Lasso) 是一种创新的特征选择算法，用以解决Las
 能够解决Lasso方法在一组相关特征组随意选择其中一部分作为代表从而导致可能遗漏特征的问题
 且不引入过多的多重共线性问题
 
-## ⚙️ 参数配置
+## 参数配置
 
 ### ARL 核心参数
 
