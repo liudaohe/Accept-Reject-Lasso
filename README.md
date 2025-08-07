@@ -56,7 +56,7 @@ ARL (Accept-Reject Lasso) 是一种创新的特征选择算法，用以解决Las
 | `correlation_threshold` | 0.8 | 问题组相关性阈值 |
 | `silhouette_threshold` | 0.5 | 聚类质量阈值 |
 | `n_final_clusters` | 50 | 数据子集数量 |
-| `co_occurrence_threshold` | 1 | 0-10 | 共现模式阈值 |
+| `co_occurrence_threshold` | 1 | 共现模式阈值 |
 | `min_subset_size` | 20 | 最小子集样本大小 |
 
 ### 基准Lasso 默认超参数设置可见文章
@@ -64,7 +64,7 @@ ARL (Accept-Reject Lasso) 是一种创新的特征选择算法，用以解决Las
 
 ### 通用参数
 
-| 参数 | 默认值 | 范围 | 说明 |
+| 参数 | 默认值 | 说明 |
 |------|--------|------|
 | `random_state` | 42 | 随机种子 |
 | `n_jobs` | 64 | 并行作业数量 |
